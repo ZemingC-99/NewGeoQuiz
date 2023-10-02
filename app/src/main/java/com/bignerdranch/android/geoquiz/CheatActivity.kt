@@ -48,7 +48,7 @@ class CheatActivity : AppCompatActivity() {
 
     override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
-        outState.putBoolean(EXTRA_ANSWER_SHOWN, answerIsTrue)
+        outState.putBoolean(EXTRA_ANSWER_SHOWN, true)
     }
 
     companion object {
